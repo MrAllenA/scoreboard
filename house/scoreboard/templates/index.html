@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width">
+<head>
+    <title>scoreboard</title>
+
+{% load static %}
+    <link rel="stylesheet"  href="{%static 'css/index.css' %}">
+</head>
+<body>
+<div class="nav">
+
+<ul>
+    <li>SCOREBOARD</li>
+</ul>
+</div>
+
+<div class="greet">
+    <h1 id="gt1">
+        Happy Onam!
+    </h1>
+    <h2 id="gt2">from Allen Anand</h2>
+</div>
+<div class="house">
+    <div id="cl" class="circle">
+   <img id="lan" src="{%static 'img/lanist.jpg' %}" alt="lan">
+
+    </div>
+    <div class="circle"><img id="bar" src="{%static 'img/bar2.jpg' %}" alt="bar"></div>
+
+         <div class="circle"><img id="tar" src="{%static 'img/tar.jpg' %}" alt="tar"></div>
+
+              <div class="circle"><img id="star" src="{%static 'img/stark.jpg' %}" alt="star"></div>
+
+</div>
+<div class="card">
+    <h1>STARKS:{{stark}}</h1>
+     <h1>LANNISTERS:{{lan}}</h1>
+     <h1>TARGARYENS:{{tar}}</h1>
+     <h1> BARATHEONS:{{bar}}</h1>
+
+</div>
+<div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
+</div>
+</body>
+</html>
