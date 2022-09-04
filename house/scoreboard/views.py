@@ -2,13 +2,13 @@ import pyrebase
 from django.shortcuts import render
 
 firebaseConfig = {
-    "apiKey": "AIzaSyAFUxhJFDDx2Jb3CGGSbu0yCejKB7L2Caw",
-    "authDomain": "onamscore.firebaseapp.com",
-    "projectId": "onamscore",
-    "storageBucket": "onamscore.appspot.com",
-    "messagingSenderId": "106855565335",
-    "appId": "1:106855565335:web:092921501950ca760eb452",
-    "databaseURL": "https://onamscore-default-rtdb.firebaseio.com"
+    "apiKey": "",
+    "authDomain": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": "",
+    "databaseURL": ""
 
 }
 
